@@ -25,9 +25,9 @@ function imc() {
         }else{
             classificacao = 'com obesidade grau III. Cuidado!'
         }
-        result.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
-    }else{
-        result.textContent = "Preencha todos os campos"
+            result.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
+        }else{
+            result.textContent = "Preencha todos os campos"
     }
 }
 
