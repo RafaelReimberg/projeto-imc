@@ -1,5 +1,7 @@
+// Pegando as informações para fazer o calculo do IMC
 const calc = document.getElementById('icalc');
 
+// Função do calculo do IMC
 function imc() {
     const nome = document.getElementById('inome').value;
     const altura = document.getElementById('ialtura').value;
